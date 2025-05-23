@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Waves } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +13,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="relative">
-              <Waves className="h-8 w-8 text-ocean-600 animate-wave" />
-              <div className="absolute inset-0 bg-ocean-600/20 rounded-full blur-lg"></div>
+              <img 
+                src="/lovable-uploads/32b33a88-0fc8-4d03-8bb6-ca0b9e7f9e4b.png" 
+                alt="AquaCraft Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             <span className="text-2xl font-bold text-gradient">AquaCraft</span>
           </div>
