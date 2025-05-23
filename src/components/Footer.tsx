@@ -1,4 +1,4 @@
-import { Waves, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,7 +8,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <Waves className="h-8 w-8 text-coral-400" />
+              <img 
+                src="/lovable-uploads/32b33a88-0fc8-4d03-8bb6-ca0b9e7f9e4b.png" 
+                alt="Advanced Acrylics Logo" 
+                className="h-8 w-auto"
+              />
               <span className="text-2xl font-bold">Advanced Acrylics</span>
             </div>
             <p className="text-crystal-300 mb-6 leading-relaxed">
