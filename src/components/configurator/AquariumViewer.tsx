@@ -33,18 +33,18 @@ const AquariumViewer: React.FC<AquariumViewerProps> = ({ dimensions, glassThickn
             camera={{ position: [5, 3, 5], fov: 45 }}
             gl={{ alpha: true, antialias: true }}
           >
+            {/* Lighting */}
+            <ambientLight intensity={0.4} />
+            <directionalLight position={[10, 10, 5]} intensity={1} />
+            <pointLight position={[-10, -10, -5]} intensity={0.5} />
+            
+            {/* Aquarium Model wrapped in Suspense */}
             <Suspense fallback={null}>
-              {/* Lighting */}
-              <ambientLight intensity={0.4} />
-              <directionalLight position={[10, 10, 5]} intensity={1} />
-              <pointLight position={[-10, -10, -5]} intensity={0.5} />
-              
-              {/* Aquarium Model */}
               <AquariumModel dimensions={dimensions} glassThickness={glassThickness} />
-              
-              {/* Controls */}
-              <OrbitControls enablePan={false} enableZoom={true} enableRotate={true} />
             </Suspense>
+            
+            {/* Controls - outside of Suspense */}
+            <OrbitControls enablePan={false} enableZoom={true} enableRotate={true} />
           </Canvas>
         </div>
       </CardContent>
