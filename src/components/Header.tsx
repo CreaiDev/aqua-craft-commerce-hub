@@ -14,12 +14,11 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <div className="relative">
               <img 
-                src="/lovable-uploads/32b33a88-0fc8-4d03-8bb6-ca0b9e7f9e4b.png" 
+                src="/lovable-uploads/bf858079-bcaa-46f3-be16-9e26d493560e.png" 
                 alt="Advanced Acrylics Logo" 
-                className="h-8 w-auto"
+                className="h-12 w-auto"
               />
             </div>
-            <span className="text-2xl font-bold text-gradient">Advanced Acrylics</span>
           </div>
 
           {/* Desktop Navigation */}
