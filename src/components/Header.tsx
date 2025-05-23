@@ -15,11 +15,11 @@ const Header = () => {
             <div className="relative">
               <img 
                 src="/lovable-uploads/32b33a88-0fc8-4d03-8bb6-ca0b9e7f9e4b.png" 
-                alt="AquaCraft Logo" 
+                alt="Advanced Acrylics Logo" 
                 className="h-8 w-auto"
               />
             </div>
-            <span className="text-2xl font-bold text-gradient">AquaCraft</span>
+            <span className="text-2xl font-bold text-gradient">Advanced Acrylics</span>
           </div>
 
           {/* Desktop Navigation */}

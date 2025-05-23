@@ -1,4 +1,3 @@
-
 import { Waves, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <Waves className="h-8 w-8 text-coral-400" />
-              <span className="text-2xl font-bold">AquaCraft</span>
+              <span className="text-2xl font-bold">Advanced Acrylics</span>
             </div>
             <p className="text-crystal-300 mb-6 leading-relaxed">
               Transforming spaces with custom aquarium installations that blend 
@@ -89,7 +88,7 @@ const Footer = () => {
         <div className="border-t border-crystal-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-crystal-400 text-sm">
-              © 2024 AquaCraft. All rights reserved.
+              © 2024 Advanced Acrylics. All rights reserved.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-crystal-400 hover:text-coral-400 transition-colors text-sm">Privacy Policy</a>
