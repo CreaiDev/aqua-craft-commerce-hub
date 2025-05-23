@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { OrbitControls, Environment, ContactShadows } from '@react-three/drei';
 import * as THREE from 'three';
 
 interface AquariumProps {
